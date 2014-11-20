@@ -1,0 +1,35 @@
+﻿@charset "utf-8";
+html {
+	height: 100%;
+	margin: 0 auto;
+	padding: 0;
+	display: table;
+}
+body {
+	min-height: 100%;
+	margin: 0 auto;
+	padding: 0;
+	display: table-cell;
+	vertical-align: middle;
+}
+#main {
+	text-align:center;
+	padding: 20px;
+}
+
+#book-title{
+	margin-bottom:1em;
+	font-size:x-large;
+}
+#book-author{
+	margin: 0.25em;
+	font-size:large;
+}
+#book-translator{
+	margin: 0.25em;
+	font-size:medium;
+}
+#book-licence{
+	margin: 1em;
+	width:5em;
+}

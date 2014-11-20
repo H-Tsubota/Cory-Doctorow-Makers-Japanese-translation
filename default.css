@@ -1,0 +1,62 @@
+﻿@charset "utf-8";
+body{
+	margin-top:30px;
+	margin-bottom:30px;
+	margin-right:10%;
+	margin-left:10%;
+}
+a{
+	color:black;
+	text-decoration:none;
+}
+a:link{}
+a:visited{
+	color:purple; 
+}
+a:hover{
+	text-decoration:underline;
+}
+a:active{
+	color:yellow;
+}
+
+h2.title{
+	font-size:medium; 
+}
+
+td{
+	padding:10px;
+}
+
+ol.reference{
+	font-size:small;
+}
+
+.emphasis{
+	font-weight:bold;
+}
+
+.writeDown{
+	font-style:italic;
+}
+
+.deleted{
+	text-decoration:line-through;
+}
+
+.sub{
+	font-size:80%;
+}
+
+strong.circle {
+	font-weight: normal;
+	text-emphasis-style: sesame;
+	-webkit-text-emphasis-style: sesame;
+	-epubt-text-emphasis-style: sesame;
+}
+
+span.tcy {
+	text-combine: horizontal;
+	-webkit-text-combine: horizontal;
+	-epub-text-combine: horizontal;
+}

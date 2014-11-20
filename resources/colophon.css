@@ -1,0 +1,19 @@
+﻿@charset "utf-8";
+body{
+	margin-top:30px;
+	margin-bottom:30px;
+	margin-right:10%;
+	margin-left:10%;
+}
+
+h1{
+	font-size:large; 
+}
+
+.item{
+	margin:0.5em;
+}
+
+.emphasis{
+	font-weight:bold;
+}
