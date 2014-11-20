@@ -1,7 +1,7 @@
-Cory-Doctorow-Makers-Japanese-translation
+﻿Cory-Doctorow-Makers-Japanese-translation
 =========================================
 
-コリー・ドクトロウの小説「メイカーズ」の日本語訳です。
+コリイ・ドクトロウの小説「メイカーズ」の日本語訳です。
 
 ## 説明
 
