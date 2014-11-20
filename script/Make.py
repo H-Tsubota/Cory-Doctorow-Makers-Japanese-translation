@@ -66,7 +66,7 @@ def main():
 	epub3.isVertical = True
 	
 	epub3.version = 1.0
-	epub3.coverImage = '../resources/Cover.png'
+	epub3.coverImage = '../resources/cover.png'
 	epub3.title = u'メイカーズ'
 	epub3.creator = u'コリイ・ドクトロウ'
 	epub3.translator = u'Haruka Tsubota'
@@ -79,9 +79,9 @@ def main():
 	epub3.css.append('../resources/colophon.css')
 	epub3.css.append('../resources/cover.css')
 	
-	epub3.contents['Part1.xhtml'] = u'第一部'
-	epub3.contents['Part2.xhtml'] = u'第二部'
-	epub3.contents['Part3.xhtml'] = u'第三部'	
+	epub3.contents['part1.xhtml'] = u'第一部'
+	epub3.contents['part2.xhtml'] = u'第二部'
+	epub3.contents['part3.xhtml'] = u'第三部'	
 	epub3.contents['../resources/colophon.xhtml'] = u'奥付'
 
 	# 書き出し
