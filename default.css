@@ -24,6 +24,11 @@ h2.title{
 	font-size:medium; 
 }
 
+p{
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
 td{
 	padding:10px;
 }
@@ -38,6 +43,8 @@ ol.reference{
 
 .writeDown{
 	font-style:italic;
+	margin-left: 2em;
+	margin-right: 2em;
 }
 
 .deleted{
@@ -59,4 +66,9 @@ span.tcy {
 	text-combine: horizontal;
 	-webkit-text-combine: horizontal;
 	-epub-text-combine: horizontal;
+}
+
+hr{
+	margin-left: 2em;
+	margin-right: 2em;
 }
