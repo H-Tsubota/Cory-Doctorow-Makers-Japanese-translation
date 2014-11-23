@@ -219,8 +219,24 @@ class osEpub3():
 		css += u'	text-indent: 3em;\n'
 		css += u'}\n'
 		
+		css += u'p{\n'
+		css += u'	margin-left: 0px;\n'
+		css += u'	margin-right: 0px;\n'
+		css += u'}\n'
+		
 		css += u'p.indented{\n'
 		css += u'	text-indent: 1em;\n'
+		css += u'}\n'
+		
+		css += u'.writeDown{\n'
+		css += u'	font-style:italic;\n'
+		css += u'	margin-left: 2em;\n'
+		css += u'	margin-right: 2em;\n'
+		css += u'}\n'
+		
+		css += u'hr{\n'
+		css += u'	margin-left: 2em;\n'
+		css += u'	margin-right: 2em;\n'
 		css += u'}\n'
 		
 		f = open(path, 'w')
