@@ -229,7 +229,7 @@ class osEpub3():
 		css += u'}\n'
 		
 		css += u'.writeDown{\n'
-		css += u'	font-style:italic;\n'
+		css += u'	margin-top: 2em;\n'
 		css += u'	margin-left: 2em;\n'
 		css += u'	margin-right: 2em;\n'
 		css += u'}\n'
