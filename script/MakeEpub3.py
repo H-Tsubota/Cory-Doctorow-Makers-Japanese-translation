@@ -208,7 +208,7 @@ class osEpub3():
 	def writeVerticalCSS(self, path):
 		css = u'@charset "utf-8";\n'
 		css += u'html {\n'
-		css += u'	font-family: "HiraMinProN-W3", "@ＭＳ 明朝", serif, sans-serif;\n'
+		css += u'	font-family: "HiraMinProN-W3", serif, sans-serif;\n'
 		css += u'	writing-mode: vertical-rl;\n'
 		css += u'	-webkit-writing-mode: vertical-rl;\n'
 		css += u'	-epub-writing-mode: vertical-rl;\n'
