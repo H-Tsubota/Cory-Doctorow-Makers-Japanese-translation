@@ -228,6 +228,12 @@ class osEpub3():
 		css += u'	text-indent: 1em;\n'
 		css += u'}\n'
 		
+		css += u'p.emphasis{\n'
+		css += u'	margin-top: 2em;\n'
+		css += u'	margin-left: 2em;\n'
+		css += u'	margin-right: 2em;\n'
+		css += u'}\n'
+
 		css += u'.writeDown{\n'
 		css += u'	margin-top: 2em;\n'
 		css += u'	margin-left: 2em;\n'
